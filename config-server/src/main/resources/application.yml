@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sping-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://opt/java-code/MicroServiceTests/In28Minutes/micro-services/gitrepo
+server:
+  port: 8888
